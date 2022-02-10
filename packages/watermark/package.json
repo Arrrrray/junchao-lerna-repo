@@ -1,6 +1,6 @@
 {
-    "name": "watermark",
-    "version": "1.0.4",
+    "name": "global-watermark",
+    "version": "1.0.0",
     "description": "前端水印实现",
     "main": "index.js",
     "scripts": {
@@ -44,5 +44,5 @@
         "webpack": "^5.65.0",
         "webpack-cli": "^4.9.1"
     },
-    "gitHead": "79dccc09397784933ed75f43f9bf51016f600593"
+    "gitHead": "55b68d9548273a8b024be91591de842a068f27f0"
 }
