@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { renderWatermark } from "watermark";
+import { renderWatermark } from "../../../src/index";
 
 function App() {
     renderWatermark({ text: "shuiyin" });
