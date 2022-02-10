@@ -1,0 +1,44 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "declaration": true,
+        "emitDeclarationOnly": false,
+        "emitDecoratorMetadata": true,
+        "noImplicitAny": true,
+        "strict": false,
+
+        "module": "commonjs",
+        "sourceMap": true,
+        "outDir": "./lib",
+        "typeRoots": [
+            "./types"
+        ],
+        "target": "es5",
+        "lib": [
+            "ES2017",
+            "es5",
+            "dom"
+        ],
+        "skipLibCheck": true,
+        "experimentalDecorators": true,
+        "noEmitOnError": true,
+        "strictNullChecks": true,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "baseUrl": "./src",
+        "paths": {
+            "*": [
+                "*",
+                "umu-full-watermark/*"
+            ]
+        }
+    },
+    "include": [
+        "src", "test/offscreenCanvas",
+        // "index.d.ts"
+    ],
+    "exclude": [
+        "node_modules/",
+        "test"
+    ]
+}
