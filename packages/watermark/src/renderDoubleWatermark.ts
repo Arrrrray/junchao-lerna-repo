@@ -59,7 +59,7 @@ export const renderDoubleWatermark = (props: IRenderDoubleWatermarkProps) => {
     // 获取文案宽高
     const textWidth = Math.ceil(ctx.measureText(text).width);
 
-    // 计算出需要设置的canvas的宽高，加fontSize作为留白
+    // 计算出需要设置的canvas的宽高，加fontSize作为安全距离
     const currentWidth = Math.ceil(textWidth * Math.cos(rotate * Math.PI / 180)) / ratio + fontSize;
     const currentHeight = Math.ceil(textWidth * Math.sin(rotate * Math.PI / 180)) / ratio + fontSize;
     const top = 0;
