@@ -1,0 +1,22 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   globs: [
+0 silly argv     'babel/preset-typescript',
+0 silly argv     'types/node',
+0 silly argv     'types/offscreencanvas',
+0 silly argv     'babel-loader',
+0 silly argv     'browserify',
+0 silly argv     'ts-loader',
+0 silly argv     'typescript',
+0 silly argv     'webpack',
+0 silly argv     'webpack-cli'
+0 silly argv   ],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'lerna',
+0 silly argv   pkg: 'babel/preset-env'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/gaojunchao/junchao/junchao-lerna-repo
+3 info versioning independent
+4 error Error: An unknown git error occurred
+4 error     at makeError (/usr/local/lib/node_modules/lerna/node_modules/@npmcli/git/lib/make-error.js:28:13)
