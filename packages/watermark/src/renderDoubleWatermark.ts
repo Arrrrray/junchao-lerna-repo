@@ -43,7 +43,6 @@ export interface IRenderDoubleWatermarkProps {
 
 }
 
-
 export const renderDoubleWatermark = (props: IRenderDoubleWatermarkProps) => {
   const { className = 'body', text = '水印文案', color = '#222', size = 13, rotate = 10, offsetX = 15, offsetY = 30, font = 'sans-serif', transparency = 0.5, zIndex = 1000 } = props;
   // 创建一个canvas，获取文案的宽度，计算出需要设置的canvas的宽高

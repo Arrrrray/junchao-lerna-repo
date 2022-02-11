@@ -33,6 +33,7 @@ export const scaleOptions = function (ratio: number, options: Record<string, any
     });
     return newOptions;
 };
+
 export interface IRenderBaseImageProps {
     width: number;
     height: number
