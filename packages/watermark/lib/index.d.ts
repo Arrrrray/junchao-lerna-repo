@@ -1,2 +1,3 @@
-import { renderWatermark, WatermarkProps } from './renderWatermark';
-export { renderWatermark, WatermarkProps };
+import { renderDoubleWatermark, IRenderDoubleWatermarkProps } from './renderDoubleWatermark';
+import { renderSingleWatermark, IRenderSingleWatermarkProps } from './renderSingleWatermark';
+export { renderDoubleWatermark, IRenderDoubleWatermarkProps, renderSingleWatermark, IRenderSingleWatermarkProps };
